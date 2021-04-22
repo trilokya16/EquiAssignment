@@ -35,27 +35,27 @@ public class HomePage extends Config{
         PageFactory.initElements(driver, this);
     }
 
-    public getSearchButton() {
-        return searchButton;
+    public WebElement getSearchButton() {
+         return searchButton;
     }
 
-    public clickFirstAvailableLinkonUI(){
+    public WebElement clickFirstAvailableLinkonUI(){
         return firstAvailableLink;
     }
 
-    public selectRadioButtonForBuyUsedBooks() {
+    public WebElement selectRadioButtonForBuyUsedBooks() {
         return radioButtonForBuyUsed;
     }
 
-    public getPriceForValidation() {
+    public WebElement getPriceForValidation() {
         return getPrice;
     }
 
-    public clickAddToCart() {
+    public WebElement clickAddToCart() {
         return addToCart;
     }
 
-    public clickProceedToCheckOutButton(){
+    public WebElement clickProceedToCheckOutButton(){
         return proceedToCheckout;
     }
 }
