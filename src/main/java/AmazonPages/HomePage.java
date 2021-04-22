@@ -11,6 +11,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends Config{
 
+    final WebDriver driver;
+
+
     @FindBy(xpath = "//*[@id='twotabsearchtextbox']")
     WebElement searchButton;
 
@@ -31,7 +34,8 @@ public class HomePage extends Config{
 
 
     // Initializing the Page Objects:
-    public HomePage() {
+    public HomePage(WebDriver driver){
+        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
