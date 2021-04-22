@@ -8,9 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-/**
- * Created by JG on 4/19/21.
- */
 public class HomePageTest extends HomePage {
 
     HomePage homePage;

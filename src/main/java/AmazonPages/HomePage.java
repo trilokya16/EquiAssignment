@@ -8,9 +8,7 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-/**
- * Created by JG on 4/19/21.
- */
+
 public class HomePage extends Config{
 
     @FindBy(xpath = "//*[@id='twotabsearchtextbox']")
